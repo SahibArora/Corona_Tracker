@@ -1,4 +1,4 @@
-# Corona_Tracker - Android (C# and XAML)
+# Corona_Tracker - Android (Java, C# and XAML)
 
 This application helps you track your location every 15 mins, if you are 100 meters away from where you were before, it will add your location to the local storage of your phone.
 If you are within 100 meters, it will just ignore the location data and will not add it to the storage.
