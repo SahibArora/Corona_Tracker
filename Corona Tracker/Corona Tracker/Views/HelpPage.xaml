@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Corona_Tracker.HelpPage"
+             Title="Corona Tracker">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Frame HasShadow = "true"
+                   CornerRadius ="20">
+                <Grid HeightRequest="100" WidthRequest="100">
+                    <Button
+                            Text="Location"
+                            Padding="0,0,0,0"
+                            Grid.Column="0"
+                            FontAttributes="Bold"
+                            Clicked="GetLocationPage"
+                            CornerRadius="20"
+                            FontSize="20"/>
+                    <Button Text="Map"
+                            Grid.Column="1"
+                            Padding="0,0,0,0"
+                            FontAttributes="Bold"
+                            Clicked="GetMapsPage"
+                            CornerRadius="20"
+                            FontSize="20"/>
+                </Grid>
+            </Frame>
+            <ScrollView>
+                <StackLayout>
+                    <Frame HasShadow = "true"
+                       CornerRadius ="20">
+                        <Image Source="drawable/tracker.jpg"
+                              Margin="10"
+                              HeightRequest="200"
+                              WidthRequest="300"
+                              ></Image>
+                    </Frame>
+
+                    <Frame HasShadow = "true"
+                       CornerRadius ="20">
+                        <Grid>
+                            <Grid.RowDefinitions >
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                               Text="What does this tool do?"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center"></Label>
+
+                            <Label LineBreakMode="WordWrap"
+                               Grid.Row="1"
+                               TextColor="Black"
+                               FontSize="18">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="It will track down the road of "/>
+                                        <Span Text="novel covid - 19 " FontAttributes="Bold" FontSize="18"/>
+                                        <Span Text="where ever it has "/>
+                                        <Span Text="traveled " FontAttributes="Bold" FontSize="18"/>
+                                        <Span Text="and where it might be!"></Span>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Grid>
+                    </Frame>
+
+                    <Frame HasShadow = "true"
+                       CornerRadius ="20">
+                        <Grid>
+                            <Grid.RowDefinitions >
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                               Text="How are we going to do it?"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center"></Label>
+
+                            <Label LineBreakMode="WordWrap"
+                               Grid.Row="1"
+                               TextColor="Black"
+                               FontSize="18">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="We will store our locations of last 14 days, where ever we have visited "/>
+                                        <Span Text=", unfortunately if anyone amoung us get the virus, specific person can anonymously share his/her location with others. "></Span>
+                                        <Span Text="&#10;All the locations will be mapped and clearly visible to all the users!"></Span>
+                                        <Span Text="&#10;&#10;Now comes the interesting part -&#10;" FontAttributes="Bold" FontSize="16"/>
+                                        <Span Text="&#10;All the users who have visited those locations will also share their locations anonymously adding their locations to map as"/>
+                                        <Span Text=" 'Potentially Infected'" FontAttributes="Bold" FontSize="16"/>
+                                        <Span Text=" and then the users who have visited even potentially infected areas can also share their location to build a strong map of where this virus might be!"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label Grid.Row="2"
+                               Text="It will help us to break the chain of Novel Covid - 19 and we will be able to get to our normal schedules as quickly as possible!"
+                               TextColor="Black"
+                               FontSize="18"></Label>
+                        </Grid>
+                    </Frame>
+
+                    <Frame HasShadow = "true"
+                       CornerRadius ="20">
+                        <Grid>
+                            <Grid.RowDefinitions >
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0"
+                               Text="Matter of Fact."
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center"></Label>
+
+                            <Label LineBreakMode="WordWrap"
+                               Grid.Row="1"
+                               TextColor="Black"
+                               FontSize="18">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="- No sign-in required! &#10;" FontAttributes="Bold" FontSize="16"/>
+                                        <Span Text="- When you will send your location, no one will ever know whose it is!&#10;"></Span>
+                                        <Span Text="- All the locations saved, stays in your phone, unless until you share!" FontAttributes="Bold" FontSize="16"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                            <Label>
+
+                            </Label>
+                        </Grid>
+                    </Frame>
+                    <Frame HasShadow = "true"
+                       CornerRadius ="20">
+                        <Grid Margin="30">
+                            <Grid.RowDefinitions Height="Auto"/>
+                            <Grid.ColumnDefinitions Width="Auto"/>
+                            <Label Grid.Row="0"
+                               Text="Lets Fight and Win!"
+                               TextColor="Black"
+                               FontAttributes="Bold"
+                               FontSize="20"
+                               HorizontalOptions="Center"></Label>
+                        </Grid>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

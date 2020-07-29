@@ -1,0 +1,20 @@
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Corona Tracker.deps.json
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Corona Tracker.dll
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\ref\Corona Tracker.dll
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Corona Tracker.pdb
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.csprojAssemblyReference.cache
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.AssemblyInfoInputs.cache
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.AssemblyInfo.cs
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.dll
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\ref\Corona Tracker.dll
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.pdb
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Views\HelpPage.xaml.g.cs
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Views\Locations.xaml.g.cs
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Views\Maps.xaml.g.cs
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.csproj.CoreCompileInputs.cache
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\saror\Desktop\Tracker\Corona Tracker\Corona Tracker\Corona Tracker\obj\Debug\netstandard2.0\Corona Tracker.csproj.CopyComplete

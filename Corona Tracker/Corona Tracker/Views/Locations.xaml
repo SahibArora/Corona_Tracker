@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Corona_Tracker.Locations"
+             Title="Locations">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HasShadow = "true"
+                   CornerRadius ="20">
+                <Grid>
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button 
+                        x:Name="startService"
+                        Text="Start Tracking"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        FontSize="20"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="#00FF00"/>
+                    <Button
+                        x:Name="stopService"
+                        Text="Stop Tracking"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        FontSize="20"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        BackgroundColor="#FF0000"
+                        IsVisible="False"/>
+                </Grid>
+            </Frame>
+            <Frame HasShadow = "true"
+                   CornerRadius ="20">
+                <ListView x:Name="LocationList">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding address}" Detail="{Binding dateTime}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
