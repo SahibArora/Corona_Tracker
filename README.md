@@ -6,3 +6,5 @@ If you are within 100 meters, it will just ignore the location data and will not
 Purpose of doing this, 
 
 It will help us getting more accurate data of where we were in the last 14 days, which will further help everyone around you if you unfortunately get in contact with Covid-19!
+
+https://user-images.githubusercontent.com/28573879/104140316-e5200e00-537e-11eb-8786-80d31f597428.jpeg
